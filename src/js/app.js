@@ -29,3 +29,5 @@ export default function orderByProps(object, array) {
 
   return result;
 }
+console.log(orderByProps(obj, ['name', 'level']));
+console.log(obj);
